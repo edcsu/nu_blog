@@ -23,6 +23,11 @@ class BlogPostsController < ApplicationController
     end
   end
 
+  def edit
+    @blog_post = BlogPost.find(params[:id])
+  
+  end
+
   private
 
   def blog_post_params
