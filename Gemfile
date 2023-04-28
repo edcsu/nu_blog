@@ -81,3 +81,4 @@ group :production do
   # Use postgresql for production
   gem "pg"
 end
+gem "pagy", "~> 6.0"
